@@ -1,4 +1,4 @@
-__author__ = 'hussmann'
+__author__ = 'jad'
 
 from pickle import TRUE
 import pygame
@@ -20,11 +20,11 @@ screen.fill(background)
 
 # Preload slide files
 slides = []
-slides.append(pygame.image.load('pics/tiger.jpg').convert())
-slides.append(pygame.image.load('pics/elephant.jpg').convert())
-slides.append(pygame.image.load('pics/jbeans.jpg').convert())
-slides.append(pygame.image.load('pics/peppers.jpg').convert())
-slides.append(pygame.image.load('pics/butterfly.jpg').convert())
+slides.append(pygame.image.load('mmp02b/SlideShowKeyCtrl/pics/tiger.jpg').convert())
+slides.append(pygame.image.load('mmp02b/SlideShowKeyCtrl/pics/elephant.jpg').convert())
+slides.append(pygame.image.load('mmp02b/SlideShowKeyCtrl/pics/jbeans.jpg').convert())
+slides.append(pygame.image.load('mmp02b/SlideShowKeyCtrl/pics/peppers.jpg').convert())
+slides.append(pygame.image.load('mmp02b/SlideShowKeyCtrl/pics/butterfly.jpg').convert())
 
 slideindex = 0
 running = True
