@@ -22,7 +22,7 @@ for event in pygame.event.get():
         exit()
 
 # Load image and show it on screen
-slide = pygame.image.load('pics/tiger.jpg').convert()
+slide = pygame.image.load('mmp02b/SlideShowKeyCtrl/pics/tiger.jpg').convert()
 screen.blit(slide, (50, 50))
 pygame.display.update()
 pygame.time.wait(4000)
@@ -32,7 +32,7 @@ for event in pygame.event.get():
         exit()
 
 # Load image and show it on screen
-slide = pygame.image.load('pics/elephant.jpg').convert()
+slide = pygame.image.load('mmp02b/SlideShowKeyCtrl/pics/elephant.jpg').convert()
 screen.blit(slide, (50, 50))
 pygame.display.update()
 pygame.time.wait(4000)
@@ -42,7 +42,7 @@ for event in pygame.event.get():
         exit()
 
 # Load image and show it on screen
-slide = pygame.image.load('pics/jbeans.jpg').convert()
+slide = pygame.image.load('mmp02b/SlideShowKeyCtrl/pics/jbeans.jpg').convert()
 screen.blit(slide, (50, 50))
 pygame.display.update()
 pygame.time.wait(4000)
@@ -52,7 +52,7 @@ for event in pygame.event.get():
         exit()
 
 # Load image and show it on screen
-slide = pygame.image.load('pics/peppers.jpg').convert()
+slide = pygame.image.load('mmp02b/SlideShowKeyCtrl/pics/peppers.jpg').convert()
 screen.blit(slide, (50,  50))
 pygame.display.update()
 pygame.time.wait(4000)
@@ -62,7 +62,7 @@ for event in pygame.event.get():
         exit()
 
 # Load image and show it on screen
-slide = pygame.image.load('pics/butterfly.jpg').convert()
+slide = pygame.image.load('mmp02b/SlideShowKeyCtrl/pics/butterfly.jpg').convert()
 screen.blit(slide, (50, 50))
 pygame.display.update()
 
