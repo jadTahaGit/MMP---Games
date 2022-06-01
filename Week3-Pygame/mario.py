@@ -9,7 +9,7 @@ pygame.display.set_caption("It's-a Me, Mario!")
 GREEN = (0, 255, 0)
 
 # load a Mario icon
-image = pygame.image.load('mario-60.png')
+image = pygame.image.load('Week3-Pygame/mario-60.png')
 
 # Mario's initial position 
 x = 300
